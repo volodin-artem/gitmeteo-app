@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-family: Arial,sans-serif;
+}
+a{
+    text-decoration:none;
+    color:dodgerblue;
+}
+a:hover {
+    color:red;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+div{
+    background-color:white;
+}
+.content{
+    margin:0 275px 0 220px;
+    background-color:white;
+}
+
+.header {
+    padding: 15px 20px 20px;
+    float: left;
+}
+
+.header p.gismeteo {
+    font-weight: 700;
+    font-size:35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select:none;
+    float:left;
+    margin-right:10px;
+}
+.menu {
+    padding-top:15px;
+    float:left;
+    min-width: 200px;
+}
+.menu ul {
+        list-style-type: none;
+    }
+.menu li {
+        display:inline;
+        padding-left:10px;
+        padding-right:10px;
+    }
+.menu li:first-child .menuLink{
+    pointer-events:none;
+    color:black;
+}
+
+.menuLink{
+    font-size: 13pt;
+    color: deepskyblue;
+    font-family: Arial,sans-serif;
+}
+
+.header .verticalLine{
+    background-color:lightgrey;
+    float:left;
+    height:32px;
+    width:1px;
+    margin-right:10px;
+    margin-top:10px;
+}
+.search {
+    background-color: deepskyblue;
+    clear: both;
+    padding: 5px;
+    min-width: 1000px;
+    display: block;
+    position:sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.searchBar {
+    margin: 0 270px;
+    box-sizing: border-box;
+    max-width: 400px;
+    padding: 0;
+}
+
+.searchBar input {
+    border-radius: 5px;
+    padding:5px;
+    border: 1px solid gray;
+    height: 30px;
+    width: 100%;
+}
+
+.mainContent {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #EBEDEE;
+    overflow: auto;
+}
+.newsPanel {
+    float: left;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px 10px;
+}
+.newsPanel > p{
+        font-family: Arial,sans-serif;
+        font-size:16px;
+        text-align:center;
+        padding-bottom:5px;
+}
+
+.newsPanel ul li {
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    font-family: Arial,sans-serif;
+    font-size:11pt;
+    max-width:300px;
+}
+
+.newsPanel ul:last-child {
+    border-bottom: 1px solid lightgray;
+}
+
+.newsList{
+    list-style-type:none;
+}
+
+.footer{
+    margin: 0 auto;
+}
+
+.links {
+    padding:20px;
+    font-size:.8em;
+    text-align: center;
+}
+
+.greenLink{
+    color: forestgreen;
+}
+
+.weather{
+
+}
+.weatherContent{
+    border-radius: 5px;
+    background-image: url("../img/map-660.jpg");
+    background-repeat: no-repeat;
+    float:left;
+    padding: 30px 90px 30px 15px;
+    background-size: cover;
+}
+.weather > div{
+}
+.weatherLeftSide{
+    float:left;
+    border-right: 1px solid lightgray;
+    padding-right:8px;
+    padding-left: 12px;
+}
+.linkRightAlgn{
+    float:right;
+    font-size:12px;
+}
+.weatherLeft{
+    font-size: 15px;
+}
+.currentWeatherBlock{
+    margin-top:10px;
+    background-color:#8EFF77;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 17pt;
+    float:left;
+}
+.currentWeatherIcon{
+    float: right;
+    padding-top: 20px;
+}
+.weatherGraphInfo{
+}
+.weatherInfo{
+    clear: both;
+    padding-top: 2px;
+}
+.iconLabel{
+    float: right;
+    font-size: 10pt;
+    color: gray;
+    position: relative;
+    transform: translateY(70%);
+    margin: 0;
+}
+.infoBlock {
+    margin: 13px 0;
+    font-size: 10pt;
+}
+
+.infoLabel{
+    color:gray;
+    float: left;
+}
+.infoLabelResult{
+    float: right;
+}
+.dots{
+    border-bottom: 1px dotted grey;
+    height: 1em;
+}
+
+.newsLink{
+    color:black;
+}
+.newsLink:hover{
+    color:black;
+}
+.popUpButton{
+
+}
+.popUpList ul{
+    display:none;
+}
+.dropdown:hover .popUpList ul{
+    display:block;
+    list-style: none;
+}
+.popUpList ul li{
+}
+.weatherWithTimeRight{
+
+}
+.windSpeed{
+    clear: both;
+    padding: 20px 5px;
+}
+.windSpeedLabel{
+
+}
+.windSpeedLabel > span{
+    position: relative;
+    display: inline-block;
+    background-color: #FFF;
+    font-size: 14px;
+    z-index: 5;
+    text-align: left;
+    float: left;
+}
+.windSpeedLabel::after{
+    position: relative;
+    display: block;
+    content: '';
+    width: 100%;
+    top: 8px;
+    z-index: 1;
+    border-bottom: 1px solid #efefef;
+}
+.w_wind__bg{
+    height: 28px;
+    width: 60px;
+    transform: skew(-12deg);
+    z-index: -1;
+    padding-top: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+.windSpeedBlock{
+    float: left;
+    padding-top: 5px;
+}
+.windSpeedBlocks{
+    padding: 5px;
+    clear:both;
+}
+.topWeather{
+    padding-left: 12px;
+}
+.weatherTimeWithIcons{
+    float: left;
+    font-size: 10pt;
+    text-align: center;
+}
+.timeWithIcons{
+    padding-bottom: 20px;
+}
+.colorBlockMedium{
+    background:rgba(125, 221, 49, 0.25);
+    padding:10px 0;
+    border-bottom: 2px solid lawngreen;
+}
+.weatherTimeWithIcons .weatherBlock{
+    margin-bottom: 10px;
+    float:left;
+}
+.colorBlockMedium p{
+    font-size: 15pt;
+}
+
+.adBlock{
+    margin: 0 15px;
+    float:left;
+    border-radius: 5px;
+}
+.optionsBlock{
+    clear: both;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+}
+.optionsBlock .option{
+    background-color: #009FFF;
+    float:left;
+    color: #EBEDEE;
+    padding:10px;
+}
+.option:first-child{
+    border-radius: 0 0 0 5px;
+}
+.option:last-child{
+    border-radius: 0 0 5px 0;
+}
