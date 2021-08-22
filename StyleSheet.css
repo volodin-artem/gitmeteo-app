@@ -163,10 +163,16 @@ div{
     max-width: 700px;
 }
 .weatherStations {
+}
+.weatherFooter{
     padding: 10px 17px 0 17px;
 }
 .stationsLabel{
+    position: relative;
+    background-color: #FFF;
     font-size: 14px;
+    z-index: 5;
+    text-align: left;
 }
 .stationsContainer{
     overflow: hidden;
@@ -193,6 +199,24 @@ div{
     font-size: 14px;
     vertical-align: middle;
     line-height: 25px;
+}
+.myPoints{
+    padding-top: 5px;
+}
+.horizontalLine{
+    position: relative;
+    display: block;
+    content: '';
+    width: 100%;
+    top: -8px;
+    z-index: 1;
+    border-bottom: 1px solid #efefef;
+}
+.pointsLabel{
+    background-color: #FFF;
+}
+.points{
+
 }
 .weather > div{
 }
@@ -282,21 +306,14 @@ div{
 }
 .windSpeedLabel > span{
     position: relative;
-    display: inline-block;
     background-color: #FFF;
     font-size: 14px;
     z-index: 5;
     text-align: left;
     float: left;
 }
-.windSpeedLabel::after{
-    position: relative;
-    display: block;
-    content: '';
-    width: 100%;
-    top: 8px;
-    z-index: 1;
-    border-bottom: 1px solid #efefef;
+.windSpeedLabel > .horizontalLine{
+    top: 9px;
 }
 .w_wind__bg{
     height: 28px;
