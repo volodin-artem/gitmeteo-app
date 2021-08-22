@@ -31,8 +31,11 @@ div{
 .header {
     padding: 15px 20px 20px;
     float: left;
+    width: 100%;
+    font-size: 14px;
 }
-
+.header .horizontalLine{
+}
 .header p.gismeteo {
     font-weight: 700;
     font-size:35px;
@@ -159,8 +162,29 @@ div{
 }
 .weatherBlock{
     border-radius: 5px;
+}
+.weatherColumn{
     float:left;
     max-width: 700px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.weatherBlock > div:first-child{
+    border-radius: 5px 5px 0 0;
+}
+.weatherBlock > div:last-child{
+    border-radius: 0 0 5px 5px;
+}
+
+.cities{
+    margin-top: 10px;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.hasBeenSeen{
+
 }
 .weatherStations {
 }
@@ -173,6 +197,7 @@ div{
     font-size: 14px;
     z-index: 5;
     text-align: left;
+    padding-right: 5px;
 }
 .stationsContainer{
     overflow: hidden;
@@ -212,11 +237,19 @@ div{
     z-index: 1;
     border-bottom: 1px solid #efefef;
 }
+.clear{
+    float: right;
+    position: relative;
+    z-index: 5;
+    background-color: white;
+    padding-left: 5px;
+}
 .pointsLabel{
     background-color: #FFF;
 }
 .points{
-
+    width: 100%;
+    display: inline-block;
 }
 .weather > div{
 }
