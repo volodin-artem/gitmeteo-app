@@ -51,12 +51,12 @@ div{
 }
 .menu ul {
         list-style-type: none;
-    }
+}
 .menu li {
         display:inline;
         padding-left:10px;
         padding-right:10px;
-    }
+}
 .menu li:first-child .menuLink{
     pointer-events:none;
     color:black;
@@ -161,7 +161,6 @@ div{
     background-size: cover;
 }
 .weatherBlock{
-    border-radius: 5px;
 }
 .weatherColumn{
     float:left;
@@ -169,13 +168,12 @@ div{
     border-radius: 5px;
     background-color: transparent;
 }
-.weatherBlock > div:first-child{
+.weatherContainer > :first-child{
     border-radius: 5px 5px 0 0;
 }
-.weatherBlock > div:last-child{
-    border-radius: 0 0 5px 5px;
+.weatherContainer > :last-child{
+    border-radius: 5px;
 }
-
 .cities{
     margin-top: 10px;
     clear: both;
@@ -410,4 +408,7 @@ div{
 }
 .option:last-child{
     border-radius: 0 0 5px 0;
+}
+.city{
+
 }
