@@ -326,18 +326,6 @@ div{
 .newsLink:hover{
     color:black;
 }
-.popUpButton{
-
-}
-.popUpList ul{
-    display:none;
-}
-.dropdown:hover .popUpList ul{
-    display:block;
-    list-style: none;
-}
-.popUpList ul li{
-}
 .weatherWithTimeRight{
 
 }
@@ -487,4 +475,11 @@ div{
 }
 .news:hover .description{
     opacity: .8;
+}
+.adFooter{
+    display: inline-block;
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-top: 20px;
 }
