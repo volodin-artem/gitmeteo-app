@@ -29,20 +29,31 @@ div{
 }
 
 .header {
-    padding: 15px 20px 20px;
     float: left;
     width: 100%;
     font-size: 14px;
 }
-.header .horizontalLine{
+.menuHeader{
+    padding: 7px 7px 12px 7px;
+    display: inline-block;
+    width: 100%;
 }
-.header p.gismeteo {
+.menuHeader .verticalLine{
+    float: left;
+    height: 30px;
+    margin-top: 10px;
+    width: 1px;
+    background-color: lightgray;
+}
+.menuHeader p.gismeteo {
     font-weight: 700;
     font-size:35px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     user-select:none;
     float:left;
     margin-right:10px;
+    text-align: left;
+    vertical-align: middle;
 }
 .menu {
     padding-top:15px;
@@ -86,6 +97,7 @@ div{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
 }
 .searchBar {
     margin: 0 270px;
@@ -180,14 +192,12 @@ div{
     float: left;
     width: 100%;
 }
-
-.hasBeenSeen{
-
-}
 .weatherStations {
 }
 .weatherFooter{
-    padding: 10px 17px 0 17px;
+    padding: 10px 17px 10px 17px;
+    display: inline-block;
+    width: 100%;
 }
 .stationsLabel{
     position: relative;
@@ -241,6 +251,8 @@ div{
     z-index: 5;
     background-color: white;
     padding-left: 5px;
+    font-size: 12px;
+    color: gray;
 }
 .pointsLabel{
     background-color: #FFF;
@@ -410,5 +422,18 @@ div{
     border-radius: 0 0 5px 0;
 }
 .city{
-
+    padding: 5px 10px 5px 0;
+    font-size: 14px;
+    float: left;
+    width: 20%;
+}
+.watchedCitiesBlock{
+    padding-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+}
+.watchedCities{
+    padding-top: 5px;
+    display: inline-block;
+    width: 100%;
 }
