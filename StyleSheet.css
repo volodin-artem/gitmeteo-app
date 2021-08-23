@@ -475,13 +475,16 @@ div{
     width: 100%;
 }
 .description{
-    padding: 5px;
+    padding: 10px;
     height: 50%;
     width: 100%;
-    background-color: gray;
+    background-color: rgb(115,111,108);
     color: white;
     font-size: 13px;
     position: absolute;
     bottom: 0;
     border-radius: 0 0 5px 5px;
+}
+.news:hover .description{
+    opacity: .8;
 }
