@@ -198,6 +198,7 @@ div{
     padding: 10px 17px 10px 17px;
     display: inline-block;
     width: 100%;
+    border-radius: 5px;
 }
 .stationsLabel{
     position: relative;
@@ -436,4 +437,26 @@ div{
     padding-top: 5px;
     display: inline-block;
     width: 100%;
+}
+.popularCities{
+    width: 100%;
+    display: inline-block;
+}
+.newsFooter{
+    clear: both;
+    float: left;
+    margin-top: 15px;
+    background-color: transparent;
+    width: 100%;
+    display: inline-block;
+}
+.newsContainer{
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+}
+.news{
+    height: 100px;
+    float: left;
+    margin: 0 25px 0 0;
 }
