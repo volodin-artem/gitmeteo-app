@@ -451,12 +451,37 @@ div{
     display: inline-block;
 }
 .newsContainer{
-    width: 100%;
-    display: inline-block;
+
     background-color: transparent;
+    padding-top: 5px;
 }
 .news{
-    height: 100px;
+    height: 200px;
     float: left;
-    margin: 0 25px 0 0;
+    margin: 0 20px 0 0;
+    width: 22.8%;
+    border-radius: 5px;
+    background-image: url(img/saints-petesburg.jpg);
+    background-position: top center;
+    background-size: 100% 50%;
+    position: relative;
+    background-repeat: repeat-x;
+}
+.news:last-child{
+    margin-right: 0;
+}
+.newsPicture{
+    height: 50%;
+    width: 100%;
+}
+.description{
+    padding: 5px;
+    height: 50%;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 5px 5px;
 }
