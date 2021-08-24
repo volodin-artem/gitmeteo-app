@@ -141,12 +141,18 @@ div{
     max-width:300px;
 }
 
-.newsPanel ul:last-child {
-    border-bottom: 1px solid lightgray;
-}
-
 .newsList{
     list-style-type:none;
+}
+.newsList li:hover{
+    background-color: #C0ECFA;
+    border: none;
+}
+.newsLink{
+    color: black;
+}
+.newsLink:hover{
+    color: black;
 }
 
 .footer{
@@ -321,13 +327,6 @@ div{
 .dots{
     border-bottom: 1px dotted grey;
     height: 1em;
-}
-
-.newsLink{
-    color:black;
-}
-.newsLink:hover{
-    color:black;
 }
 .weatherWithTimeRight{
 
