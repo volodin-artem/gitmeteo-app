@@ -150,15 +150,18 @@ div{
 }
 
 .footer{
-    margin: 0 auto;
+    background-color: #EBEDEE;
 }
 
 .links {
     padding:20px;
     font-size:.8em;
     text-align: center;
+    background-color: transparent;
 }
-
+.links a{
+    padding-right: 10px;
+}
 .greenLink{
     color: forestgreen;
 }
@@ -439,7 +442,6 @@ div{
     display: inline-block;
 }
 .newsContainer{
-
     background-color: transparent;
     padding-top: 5px;
 }
@@ -482,4 +484,72 @@ div{
     clear: both;
     float: left;
     margin-top: 20px;
+    background-color: transparent;
+}
+.adHeader{
+    background-color: transparent;
+    font-weight: bold;
+}
+.adDescription{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+}
+/*TODO: Remove absolute height value*/
+.ad{
+    width: 30%;
+    background-image: url(img/rolls-royce.jpg);
+    height: 250px;
+    float: left;
+    margin: 0 20px 0 0;
+    border-radius: 5px;
+    background-position: top center;
+    background-size: 100% 50%;
+    position: relative;
+    background-repeat: repeat-x;
+}
+.ad:hover .description{
+    opacity: 1;
+}
+.adButton{
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(173,216,230,1);
+    color: royalblue;
+    opacity: 1;
+}
+.ad:hover .adButton{
+    opacity: .5;
+}
+.footerDescription{
+    background-color: transparent;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+.footerCities{
+    background-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.footerCity{
+    color: gray;
+    margin-right: 20px;
+}
+.footerCity:hover{
+    color:gray;
+}
+.footerCopyright{
+    text-align: center;
+    padding: 20px 0;
+    background-color: transparent;
+    color: gray;
+    font-size: 12px;
 }
