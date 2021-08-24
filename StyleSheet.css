@@ -391,14 +391,24 @@ div{
 }
 
 .adBlock{
+    border-radius: 5px;
+}
+.secondColumn{
     margin: 0 15px;
     float:left;
-    border-radius: 5px;
+    background-color: transparent;
 }
 .optionsBlock{
     clear: both;
     border-radius: 0 0 5px 5px;
     position: relative;
+}
+.newsBlock{
+    margin-top: 20px;
+    background-color: transparent;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 .optionsBlock .option{
     background-color: #009FFF;
