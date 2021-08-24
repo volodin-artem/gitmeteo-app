@@ -143,6 +143,7 @@ div{
 
 .newsList{
     list-style-type:none;
+    padding-top: 5px;
 }
 .newsList li:hover{
     background-color: #C0ECFA;
