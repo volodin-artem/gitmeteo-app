@@ -499,27 +499,33 @@ div{
 .adHeader{
     background-color: transparent;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 .adDescription{
     padding: 10px;
     background-color: white;
     color: black;
     font-size: 14px;
-    position: absolute;
     bottom: 0;
 }
-/*TODO: Remove absolute height value*/
+
 .ad{
-    width: 30%;
-    background-image: url(img/rolls-royce.jpg);
-    height: 250px;
+    width: calc(33% - 12px);
     float: left;
     margin: 0 20px 0 0;
     border-radius: 5px;
+    padding-bottom: 10px;
+}
+.ad:last-child{
+    margin: 0;
+}
+.adImage{
+    background-image: url(img/rolls-royce.jpg);
     background-position: top center;
     background-size: 100% 50%;
-    position: relative;
     background-repeat: repeat-x;
+    width: 100%;
+    border-radius: 5px;
 }
 .ad:hover .description{
     opacity: 1;
