@@ -536,12 +536,11 @@ div{
     margin-top: 20px;
     padding: 5px;
     border-radius: 5px;
-    background: rgba(173,216,230,1);
+    background: rgba(173,216,230,.5);
     color: royalblue;
-    opacity: 1;
 }
 .ad:hover .adButton{
-    opacity: .5;
+    background: rgba(173,216,230,1);
 }
 .footerDescription{
     background-color: transparent;
@@ -579,7 +578,7 @@ div{
     margin-left: 10px;
     border-radius: 5px;
     padding: 5px;
-    max-width: 61.1%;
+    max-width: 425px;
 }
 .bottomBlocks{
     margin-top: 20px;
@@ -587,10 +586,8 @@ div{
     float: left;
     clear: both;
     background-color: transparent;
-    max-width: 100%;
 }
 .weatherHeader{
-    vertical-align: middle;
     text-align: center;
     padding: 10px 0;
     position: relative;
@@ -598,8 +595,6 @@ div{
 .weatherIcons{
     padding: 5px;
     float: left;
-    display: inline-block;
-    max-width: 100%;
 }
 .weatherLink{
     text-align: center;
