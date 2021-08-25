@@ -569,3 +569,46 @@ div{
     color: gray;
     font-size: 12px;
 }
+.adBottom{
+    border-radius: 5px;
+    float: left;
+    padding: 10px;
+}
+.weatherOnMap{
+    float: left;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 61.1%;
+}
+.bottomBlocks{
+    margin-top: 20px;
+    padding: 5px 5px 5px 0;
+    float: left;
+    clear: both;
+    background-color: transparent;
+    max-width: 100%;
+}
+.weatherHeader{
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+.weatherIcons{
+    padding: 5px;
+    float: left;
+    display: inline-block;
+    max-width: 100%;
+}
+.weatherLink{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.weatherUnit{
+    margin-right: 10px;
+    padding-top: 10px;
+    float: left;
+    width: 45%;
+}
